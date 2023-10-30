@@ -10,8 +10,8 @@ body {
    margin: 0;
    padding: 0;
    background: #000000;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #462c2e, #5b4c63, #702727);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #f64f59, #c471ed, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: -webkit-linear-gradient(to right, #462c2e, #9e61be, #702727);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #5a3e40, #c471ed, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
 
 }
