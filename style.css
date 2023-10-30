@@ -42,16 +42,16 @@ body {
  nav a {
     text-transform: uppercase;
     font-size: 30px;
-    color: rgb(45, 155, 155);
+    color: rgba(9, 22, 22, 0);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
 
   nav a:hover }
   text-decoration: underline;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 
-  
+
 
  }
  
