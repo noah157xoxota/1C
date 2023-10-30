@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contsto.css">
+    <title>GARAGEM DOS CRIAS</title>
+</head>
+<body>
+    <header class="conteiner-pai">
+        <img id="logo" src="https://1nem.vercel.app/img/logo_bco.png" alt="logo">
+        <nav>
+            <li><a href="index.html">home</a></li>
+            <li><a href="produtos,html">produtos</a></li>
+            <li><a href="contato.html">contato</a></li>
+            <div class="formularioContato">
+        
+                <form action="#" method="post" enctype="multipart/form-data">
+        
+                    <label>
+                        <span><i class="icon icon-user-1"></i> Nome</span>
+                        <input type="text" name="nome" required="">
+                    </label>
+                    
+                    <label>
+                        <span><i class="icon icon-email"></i> E-mail</span>
+                        <input type="text" name="email" class="fade_8S">
+                    </label>
+        
+                    <label>
+                        <span><i class="icon icon-flag"></i> Assunto</span>
+                        <input type="text" name="assunto" required="">
+                    </label>
+                    
+                    <label>
+                        <span><i class="icon icon-comment"></i> Mensagem</span>
+                         <textarea name="mensagem" rows="3" required=""></textarea> 
+                    </label>
+                   
+                    <input type="hidden" name="acao" value="enviar" />
+                    <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+        
+                
+                </form>
+        
+            </div><!--Formulario Contato-->
