@@ -65,7 +65,7 @@ text-align: center;
 text-transform: uppercase;
 }
 
-,textos {
+.textos {
   align-content: center;
   margin: auto;
   font-size: 30px;
